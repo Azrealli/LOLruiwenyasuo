@@ -1,0 +1,225 @@
+#db_top {
+    height: 48px;
+    margin-top: 150px;
+    text-align: center;
+    position: relative;
+}
+
+#db_top p {
+    font-size: 32px;
+    color: #e5c99a;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+#db_top:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    background: url(../images/faq-header-accent.png) center center no-repeat;
+    background-size: contain;
+}
+
+#db_mid {
+    background: #0f0d0e;
+    border: 1px solid #291e1d;
+    margin-bottom: 14px;
+    margin-top: 20px;
+}
+
+#db_mid #btn_db1 {
+    cursor: pointer;
+    outline: 0;
+    position: relative;
+    width: 100%;
+    padding: 20px 40px 20px 40px;
+    border: none;
+    background: none;
+    color: #afa391;
+    font-size: 19px;
+    line-height: 1.16667em;
+}
+
+#db_mid #btn_db1:before {
+    content: '';
+    display: block;
+    margin: -6px -12px;
+    width: 24px;
+    height: 13px;
+    background: url(../images/faq-button-carot.png);
+    position: absolute;
+    top: 50%;
+    right: 25px;
+}
+
+#db_mid #btn_db1:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    transform: translateX(-50%);
+    width: 30%;
+    height: 1px;
+    background: #291e1d;
+    z-index: 10;
+}
+
+#db_mid_m {
+    text-align: left;
+    width: 100%;
+    height: 1723px;
+}
+
+#db_mid_m p {
+    margin: 0 90px 40px;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+#db_mid_m h1 {
+    margin: 0 90px;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+#db_mid_m .zxc1 {
+    margin-bottom: 30px;
+}
+
+#db_mid_m #ul_top img {
+    width: 100%;
+    height: 100%;
+}
+
+#db_mid_m #ul_top {
+    margin-left: 80px;
+}
+
+#db_mid_m #ul_top li {
+    float: left;
+    width: 93px;
+    height: 93px;
+    margin-left: 40px;
+}
+
+#db_mid_m .zxc2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#db_mid_m #ul_mid img {
+    width: 100%;
+    height: 100%;
+}
+
+#db_mid_m #ul_mid {
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+#db_mid_m #ul_mid li {
+    float: left;
+    width: 93px;
+    height: 93px;
+    margin-left: 40px;
+}
+
+#ul_btm {
+    margin: 0 90px 50px;
+}
+
+#ul_btm li {
+    color: #afa391;
+    margin-top: 5px;
+}
+/*最后一栏问题*/
+#db_btm{
+    background: #0f0d0e;
+    border: 1px solid #291e1d;
+    margin-bottom: 14px;
+    margin-top: 20px;
+    /*height: 832px;*/
+}
+#db_btm #btn_db2{
+    cursor: pointer;
+    outline: 0;
+    position: relative;
+    width: 100%;
+    padding: 20px 40px 20px 40px;
+    border: none;
+    background: none;
+    color: #afa391;
+    font-size: 19px;
+    line-height: 1.16667em;
+    /*margin-bottom: 50px;*/
+}
+#db_btm #btn_db2:before {
+    content: '';
+    display: block;
+    margin: -6px -12px;
+    width: 24px;
+    height: 13px;
+    background: url(../images/faq-button-carot.png);
+    position: absolute;
+    top: 50%;
+    right: 25px;
+}
+
+#db_btm #btn_db2:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    transform: translateX(-50%);
+    width: 30%;
+    height: 1px;
+    background: #291e1d;
+    z-index: 10;
+}
+
+#db_btm_m {
+    text-align: left;
+    height: 695px;
+}
+
+#db_btm_m p {
+    margin: 0 90px 40px;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+#db_btm_m h1 {
+    margin: 0 90px;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#zdb {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#zdb p {
+    margin-bottom: 40px;
+    font-size: 14px;
+}
